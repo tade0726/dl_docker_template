@@ -1,5 +1,5 @@
 bash:
-	docker exec -it -w /DeepTrader stocktrading-jupyter-lab-1 bash
+	docker exec -it -w /app dl_docker_template-jupyter-lab-1 bash
 
 rebuild:
 	docker-compose build
